@@ -1,13 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ClassCounter from "./components/ClassCounter";
+import "./App.css";
+import HookCounter from "./components/HookCounter";
 
 function App() {
-  return ( <
-    div className = "App" >
-
-    <
-    /div>
+  return (
+    <div className="App">
+      <ClassCounter />
+      <HookCounter />
+    </div>
   );
 }
 
